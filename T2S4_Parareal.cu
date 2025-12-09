@@ -7,11 +7,6 @@
 // Usage (Linux):
 //   nvcc -O3 -std=c++14 T2S4_Parareal.cu -o T2S4_Parareal.out
 //   ./T2S4_Parareal.out config.txt
-//
-// Version: 2.0 (Parareal)
-// 2025.04.28
-// Based on original code by Guiyu Wang, Kai Fu, Linjie Zhang
-// School of Mathematical Sciences, Oceanic University of China
 
 #include <iterator>
 #include "cuda_runtime.h"
@@ -1412,3 +1407,4 @@ for (int n = 0; n < Nt_coarse; ++n) {
 
   return 0;
 }
+
